@@ -1,0 +1,20 @@
+{
+    "manifest_version":2,
+    "name":"twitter toolkit",
+    "version":"1.0",
+    "description":" allow you share link,image to twitter without opening twitter",
+    "background":{
+        "scripts":["background.js"]
+        
+    },
+    "icons":{
+        "64":"ext.png",
+        "32":"ext.png",
+        "16":"ext.png",
+        "128":"ext.png"
+    },
+    "permissions":[
+        "contextMenus"
+    ]
+   
+}
